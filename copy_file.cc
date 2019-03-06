@@ -59,6 +59,7 @@ getline(inStream, line);
 while(!inStream.eof())
 {
 outStream << line;
+outStream << "\n";
 getline(inStream, line);
 }
 } //copy end
